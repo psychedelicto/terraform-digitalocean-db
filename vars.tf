@@ -1,4 +1,4 @@
 variable "engine" {}
-variable "version" {}
+variable "db_version" {}
 variable "size" {}
 variable "region" {}
