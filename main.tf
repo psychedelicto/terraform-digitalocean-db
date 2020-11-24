@@ -12,9 +12,9 @@ module "labels" {
 
 resource "digitalocean_database_cluster" "db" {
   name       = module.labels.id
-  engine     = var.db_engine
-  version    = var.db_version
-  size       = var.db_size
-  region     = var.db_region
+  engine     = var.engine
+  version    = var.version
+  size       = var.size
+  region     = var.region
   node_count = 1
 }
