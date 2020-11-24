@@ -2,6 +2,6 @@ variable "engine" {}
 variable "db_version" {}
 variable "size" {}
 variable "region" {}
-variable "enviroment" {}
 variable "name" {}
-variable "application" {}
+variable "vpc_id" {}
+#variable "enviroment" {}

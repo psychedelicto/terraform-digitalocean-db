@@ -7,6 +7,10 @@ output "database_port" {
 output "database_private_uri" {
      value = digitalocean_database_cluster.db.private_uri
 }
+# The private_host for connecting to the database
+output "database_private_host" {
+    value = digitalocean_database_cluster.db.private_host
+}
 #
 # # The name of the default database
 output "database_name" {
@@ -21,4 +25,9 @@ output "database_user" {
 # # The default user password
 output "database_password" {
    value = digitalocean_database_cluster.db.password
+}
+
+# # The cluster id
+output "database_id" {
+   value = digitalocean_database_cluster.db.id
 }
