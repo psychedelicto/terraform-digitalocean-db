@@ -13,7 +13,7 @@ module "labels" {
 resource "digitalocean_database_cluster" "db" {
   name       = module.labels.id
   engine     = var.db_engine
-  version    = var.db_version|
+  version    = var.db_version
   size       = var.db_size
   region     = var.db_region
   node_count = 1
