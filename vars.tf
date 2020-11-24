@@ -1,4 +1,4 @@
-variable "db_engine" {}
-variable "db_version" {}
-variable "db_size" {}
-variable "db_region" {}
+variable "engine" {}
+variable "version" {}
+variable "size" {}
+variable "region" {}
